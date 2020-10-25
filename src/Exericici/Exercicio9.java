@@ -64,7 +64,7 @@ public class Exercicio9 {
 
 	public int totalvalidos() {
 
-		int calculo = ((validos * total_de_eleitores) / 100 ) /100;
+		int calculo = ((validos * total_de_eleitores) / 100 ) ;
 
 		System.out.println( "Validos:" +calculo + "%");
 
@@ -73,7 +73,7 @@ public class Exercicio9 {
 
 	public int TotalNulos() {
 
-		int calculo =( (nulos * total_de_eleitores) / 100) /100;
+		int calculo =( (nulos * total_de_eleitores) / 100) ;
 
 		System.out.println( "Nulos" +calculo + " %");
 
@@ -83,7 +83,7 @@ public class Exercicio9 {
 
 	public int TotalBrancos() {
 
-		int calculo = ((brancos * total_de_eleitores) / 100)  /100;
+		int calculo = ((brancos * total_de_eleitores) / 100)  ;
 
 		System.out.println( "Brancos:" + calculo   + "%");
 
